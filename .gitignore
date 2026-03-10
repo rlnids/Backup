@@ -1,0 +1,10 @@
+# Ignorar el script de backup automatizado (privado)
+backup_enterprise.sh
+
+# Ignorar archivos de respaldo del sistema (Windows/Linux)
+*.bak
+*.swp
+*~
+
+# Ignorar logs locales 
+logs/backup_enterprise.log
